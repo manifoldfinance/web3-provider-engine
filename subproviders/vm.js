@@ -98,7 +98,7 @@ VmSubprovider.prototype.estimateGas = function(payload, end) {
             callback()
         })
       },
-      function() { return lo+1 < hi },
+      function(cb) { cb(null, lo+1 < hi) },
       function(err) {
           if (err) {
               end(err)
