@@ -1,3 +1,15 @@
+> Note: this is a fork for [tradle](https://github.com/tradle) that has following open PR's merged:
+
+- https://github.com/MetaMask/web3-provider-engine/pull/399
+- https://github.com/MetaMask/web3-provider-engine/pull/398
+- https://github.com/MetaMask/web3-provider-engine/pull/397
+- https://github.com/MetaMask/web3-provider-engine/pull/396
+- https://github.com/MetaMask/web3-provider-engine/pull/395
+- https://github.com/MetaMask/web3-provider-engine/pull/394
+- https://github.com/MetaMask/web3-provider-engine/pull/393
+- https://github.com/MetaMask/web3-provider-engine/pull/392
+- https://github.com/MetaMask/web3-provider-engine/pull/378
+
 # Web3 ProviderEngine
 
 Web3 ProviderEngine is a tool for composing your own [web3 providers](https://github.com/ethereum/wiki/wiki/JavaScript-API#web3).
