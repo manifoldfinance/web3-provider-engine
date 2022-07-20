@@ -1,5 +1,5 @@
-const ProviderSubprovider = require('./json-rpc-engine-middleware')
-const createFetchMiddleware = require('eth-json-rpc-middleware/fetch')
+const ProviderSubprovider = require('./json-rpc-engine-middleware');
+const { createFetchMiddleware } = require('eth-json-rpc-middleware/dist/fetch');
 
 class FetchSubprovider extends ProviderSubprovider {
   constructor(opts) {
@@ -7,6 +7,6 @@ class FetchSubprovider extends ProviderSubprovider {
       return createFetchMiddleware(opts)
     })
   }
-}
+};
 
 module.exports = FetchSubprovider
